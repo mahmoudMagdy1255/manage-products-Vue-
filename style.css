@@ -1,0 +1,181 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+body{
+    font-family: "tahoma";
+}
+
+a{
+  text-decoration: none;
+  color: #3333ff;
+  cursor: pointer;
+}
+
+.active
+{
+  background-color: #DDD !important;
+  color: #000 !important;
+    height: 100%;
+}
+
+
+.container
+{
+  width: 800px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+
+
+.clearfix
+{
+    clear: both;
+}
+
+.body
+{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.our-links > *
+{
+  float: left;
+  margin-left: 20px;
+  padding: 10px 5px;
+  border: 1px solid #42bdbd;
+  width: 180px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.our-links > *:hover
+{
+  background-color: #DDD;
+}
+
+.show-product
+{
+  padding-left: 20px;
+}
+
+.show-product h2
+{
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 5px 5px 2px  #babbc7;
+}
+
+.product
+{
+  margin-top: 10px;
+  border-bottom: 1px solid #DDD;
+  padding: 25px;
+}
+
+.product > span
+{
+  border-radius: 50px;
+  padding: 15px;
+  color: #000;
+  background-color: #afd1b6;
+  outline: none;
+}
+
+.fa-plus
+{
+  background-color:  #f77b6e;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.form
+{
+  margin-left:10px;
+}
+
+.input
+{
+  margin-bottom: 20px;
+}
+
+.input label
+{
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  color:  #999999;
+}
+
+.input input[type="text"]
+{
+  width: 80%;
+  border: none;
+  padding: 10px 10px;
+  border-bottom: 1px solid  #92b9af;
+  font-size: 20px;
+}
+
+.input input[type="submit"]
+{
+  width: 10%;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #70a98c;
+  color: #FFF;
+}
+
+.input span
+{
+  display: block;
+  margin: 5px 10px;
+  font-size: 20px;
+  color: #568f73;
+}
+
+.search label
+{
+  font-size: 25px;
+  display: inline-block;
+}
+
+.search input[type="search"]
+{
+  width: 250px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 1px solid #ff8000;
+  margin-top: 10px;
+}
+
+.button
+{
+  width: 120px;
+  height: 50px;
+  background-color: #97e79a;
+  border-radius: 3px;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  cursor: pointer;
+}
